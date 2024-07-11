@@ -14,6 +14,7 @@ import com.application.services.UserService;
 import java.util.List;
 
 @RestController
+@CrossOrigin("*")
 public class LoginController
 {
 

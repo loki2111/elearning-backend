@@ -24,6 +24,7 @@ import com.application.services.ProfessorService;
 import com.application.services.WishlistService;
 
 @RestController
+@CrossOrigin("*")
 public class ProfessorController
 {	
 	@Autowired

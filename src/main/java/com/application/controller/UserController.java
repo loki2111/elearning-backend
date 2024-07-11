@@ -29,6 +29,7 @@ import com.application.services.UserService;
 import com.application.services.WishlistService;
 
 @RestController
+@CrossOrigin("*")
 public class UserController
 {
 	@Autowired
